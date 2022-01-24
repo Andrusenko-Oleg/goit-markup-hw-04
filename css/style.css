@@ -367,10 +367,11 @@ padding: 25px 0;
   background-color: var(--second-background-color);
   padding-bottom: 94px;
 }
-.team{
-  /* background-color: limegreen; */
-  
-}
+
+ /* .team{
+  background-color: limegreen;
+   
+} */
 
 .team >.list {
   display: flex;
@@ -413,7 +414,49 @@ padding: 25px 0;
   letter-spacing: 0.03em;
 
   margin-top: 10px;
+  margin-bottom: 16px;
 }
+
+.team_social_list{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.team_social_item{
+  height: 44px;
+  width: 44px;
+}
+
+.team_social_item:not(:last-child){
+  margin-right: 10px;
+}
+
+.team_social_link{
+  height: 100%;
+  width: 100%;
+  
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team_social_icon{
+  fill: #AFB1B8;
+}
+
+.team_social_link:hover,
+.team_social_link:focus{
+  background-color: var(--accent);
+}
+
+.team_social_link:hover .team_social_icon,
+.team_social_link:focus .team_social_icon{
+  fill: var(--primary-background-color);
+}
+
 
 /* ---------------------наши Клиенты---------------------- */
 
@@ -430,10 +473,25 @@ padding: 25px 0;
   border: 1px solid #AFB1B8;
   box-sizing: border-box;
   border-radius: 4px;
+
 }
 
 .clients_list>li:not(:last-child){
   margin-right: 30px;
+}
+
+.clients_list>li:hover,
+.clients_list>li:focus{
+  border-color: var(--accent)
+}
+
+.clients_list>li:hover .clients_icon,
+.clients_list>li:focus .clients_icon {
+ fill: var(--accent)
+}
+
+.clients_icon{
+  fill: #AFB1B8;
 }
 
 .clients_list>li>a{
