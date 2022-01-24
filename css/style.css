@@ -341,14 +341,11 @@ padding: 25px 0;
   margin-right: 0;
 }
 
-.our_work{
-  margin-bottom: 50px;
-}
-
 .our_work,
 .our_team,
 .ouer_clients{
- 
+  margin-bottom: 50px;
+
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -364,10 +361,6 @@ padding: 25px 0;
 .team{
   /* background-color: limegreen; */
   
-}
-
-.our_team {
-  margin-bottom: 50px;
 }
 
 .team >.list {
@@ -390,7 +383,6 @@ padding: 25px 0;
   line-height: 1.18;
   letter-spacing: 0.03em;
 
-  /* margin-top: 30px; */
   text-align: center;
 }
 
@@ -419,7 +411,6 @@ padding: 25px 0;
 .clients_list{
   display: flex;
 
-  margin-top: 50px;
 }
 
 
