@@ -288,6 +288,7 @@ padding: 25px 0;
 
 .icon_antenna::before{
   background-image: url(../images/icon/advantage_antenna.svg);
+
 }
 
 .icon_astronaut::before{
