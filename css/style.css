@@ -141,12 +141,12 @@ padding: 25px 0;
 }
 
 .ause_nav_icon .link {
-  color: currentColor; 
+  color: var(--primary-text-color); 
 }
 
-.link{
+/* .link{
   color: #212121;
-}
+} */
 
 .link:hover,
 .link:focus {
@@ -189,13 +189,21 @@ padding: 25px 0;
   letter-spacing: 0.02em;
 }
 
-.mail_tel_icon{
-  fill: #757575;
+.mail_box,
+.tel_box {
+  display: flex;
+  color: currentColor;
 }
 
-.link:focus .mail_tel_icon,
-.link:hover .mail_tel_icon{
-  fill: var(--accent);
+.mail_box:hover,
+.tel_box:hover,
+.mail_box:focus,
+.tel_box:focus {
+  color: #2196f3;
+}
+.ause_icon{
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .ause_nav_icon >a{
