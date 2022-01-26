@@ -189,18 +189,13 @@ padding: 25px 0;
   letter-spacing: 0.02em;
 }
 
-.mail_box,
-.tel_box {
+.contact_box {
   display: flex;
-  color: currentColor;
+  /* color: currentColor; */
 }
 
-.mail_box:hover,
-.tel_box:hover,
-.mail_box:focus,
-.tel_box:focus {
-  color: #2196f3;
-}
+.contact_box
+
 .ause_icon{
   margin-right: 10px;
   fill: currentColor;

@@ -1,0 +1,65 @@
+html{
+  box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+img{
+  display: block;
+}
+
+body {
+  margin: 0;
+
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ----------Универсальные классы----------- */
+
+.list {
+  list-style: none;
+}
+
+
+.title {
+  color: var(--title-text-color);
+
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.section{
+  padding: 94px;
+}
