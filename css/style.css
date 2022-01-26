@@ -151,6 +151,7 @@ padding: 25px 0;
 .link:hover,
 .link:focus {
   color: var(--accent);
+  outline: none;
 }
 
 .link-nav {
@@ -191,14 +192,17 @@ padding: 25px 0;
 
 .contact_box {
   display: flex;
+  align-items: center;
+  justify-content: center;
   /* color: currentColor; */
 }
-
-.contact_box
 
 .ause_icon{
   margin-right: 10px;
   fill: currentColor;
+
+  align-items: center;
+  justify-content: center;
 }
 
 .ause_nav_icon >a{
